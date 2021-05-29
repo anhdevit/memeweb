@@ -19,7 +19,7 @@ function App() {
                         <Link to="/authentication">Authentication</Link>
                     </li>
                     <li>
-                        <Link to="/managerMeme">ManagerMeme</Link>
+                        <Link to="/manageMeme">ManagerMeme</Link>
                     </li>
                 </ul>
                 <hr />
@@ -38,7 +38,7 @@ function App() {
                     <Route path="/authentication">
                         <Authentication />
                     </Route>
-                    <Route path="/managerMeme">
+                    <Route path="/manageMeme">
                         <ManageMeme />
                     </Route>
                 </Switch>
